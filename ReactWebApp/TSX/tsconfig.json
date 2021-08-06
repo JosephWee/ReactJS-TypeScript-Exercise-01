@@ -5,14 +5,17 @@
     "moduleResolution": "Node", // https://www.typescriptlang.org/docs/handbook/module-resolution.html#module-resolution-strategies
     "baseUrl": ".", // https://www.typescriptlang.org/docs/handbook/module-resolution.html#base-url
     "paths": { // https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping
-      "jquery": [ "../Scripts/jquery-3.4.1.js" ]
+      "jquery": [ "../Scripts/jquery-3.4.1.js" ],
+      "react": [ "../Scripts/react-17.0.2.development.js" ],
+      "reactDOM": [ "../Scripts/react-dom-17.0.2.development.js" ],
+      "prop-types": [ "../Scripts/prop-types-15.6.2.js" ]
     },
     "target": "es6",
     "jsx": "preserve",
     "esModuleInterop": true,
     "noEmit": false,
     "outDir": "../JSX",
-    //"types": [ "./types" ],
+    "types": [ "./types" ],
     "lib": [ "es2015", "dom" ]
   }//,
   //"include": [ "./Content/**/*" ]

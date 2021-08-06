@@ -8,11 +8,10 @@
       "jquery": [ "../Scripts/jquery-3.4.1.js" ]
     },
     "target": "es6",
-    "jsx": "preserve",
-    "esModuleInterop": true,
+    "esModuleInterop": false,
     "noEmit": false,
     "outDir": "../JS",
-    //"types": [ "./types" ],
+    "types": [ "./types" ],
     "lib": [ "es2015", "dom" ]
   }//,
   //"include": [ "./Content/**/*" ]

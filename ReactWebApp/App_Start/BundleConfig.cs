@@ -13,10 +13,21 @@ namespace ReactWebApp
                         "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(
-                new ScriptBundle("~/bundles/JavaScriptHelpers")
-                .Include("~/JS/TeleportAPIHelper.js")
-                .Include("~/JS/TeleportAPIHelper1.js")
+                new ScriptBundle("~/bundles/React")
+                .Include("~/Scripts/react-17.0.2.development.js")
+                .Include("~/Scripts/react-dom-17.0.2.development.js")
             );
+
+            bundles.Add(
+                new ScriptBundle("~/bundles/PropTypes")
+                .Include("~/Scripts/prop-types-15.6.2.js")
+            );
+
+            //bundles.Add(
+            //    new ScriptBundle("~/bundles/JavaScriptHelpers")
+            //    .Include("~/JS/TeleportAPIHelper.js")
+            //    .Include("~/JS/TeleportAPIHelper1.js")
+            //);
 
             //bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
             //            "~/Scripts/jquery.validate*"));

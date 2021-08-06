@@ -14,7 +14,12 @@ namespace ReactWebApp.Controllers
             return View();
         }
 
-        public ActionResult NavTest()
+        public ActionResult HelloWorld()
+        {
+            return View();
+        }
+
+        public ActionResult HiWorld()
         {
             return View();
         }

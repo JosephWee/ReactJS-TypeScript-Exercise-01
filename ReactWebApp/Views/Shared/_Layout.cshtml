@@ -7,17 +7,21 @@
     @Styles.Render("~/Content/css")
     @*@Scripts.Render("~/bundles/modernizr")*@
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/JavaScriptHelpers")
+    @Scripts.Render("~/bundles/React")
+    @Scripts.Render("~/bundles/PropTypes")
+    @*@Scripts.Render("~/bundles/JavaScriptHelpers")*@
     @*@Scripts.Render("~/bundles/bootstrap")*@
 </head>
 <body>
     <div>
-        @Html.ActionLink("ReactJSApp", "Index", "Default", new { area = "" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("Home", "Index", "Default", new { area = "" }, new { @class = "navbar-brand" })
     </div>
-    @*<div>
-        @Html.ActionLink("NavTest", "NavTest", "Default", new { area = "" }, new { @class = "navbar-brand" })
-    </div>*@
-
+    <div>
+        @Html.ActionLink("Hello World", "HelloWorld", "Default", new { area = "" }, new { @class = "navbar-brand" })
+    </div>
+    <div>
+        @Html.ActionLink("Hi World", "HiWorld", "Default", new { area = "" }, new { @class = "navbar-brand" })
+    </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
