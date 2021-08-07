@@ -23,5 +23,10 @@ namespace ReactWebApp.Controllers
         {
             return View();
         }
+
+        public ActionResult SimpleApp()
+        {
+            return View();
+        }
     }
 }

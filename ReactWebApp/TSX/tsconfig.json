@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "noImplicitAny": false,
-    "module": "CommonJS",
+    "module": "CommonJS", // https://www.typescriptlang.org/docs/handbook/modules.html
     "moduleResolution": "Node", // https://www.typescriptlang.org/docs/handbook/module-resolution.html#module-resolution-strategies
     "baseUrl": ".", // https://www.typescriptlang.org/docs/handbook/module-resolution.html#base-url
     "paths": { // https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping

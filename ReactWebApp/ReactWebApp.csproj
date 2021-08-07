@@ -164,7 +164,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="JSX\HelloWorld.jsx" />
-    <Content Include="JS\HiWorld.js" />
+    <Content Include="JSX\HiWorld.jsx" />
+    <Content Include="JSX\SimpleApp.jsx" />
+    <Content Include="JSX\TeleportAPIHelper.jsx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -194,8 +196,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Default\HelloWorld.cshtml" />
     <Content Include="TSX\tsconfig.json" />
-    <Content Include="TS\tsconfig.json" />
     <Content Include="Views\Default\HiWorld.cshtml" />
+    <Content Include="Views\Default\SimpleApp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -212,9 +214,10 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="TSX\HelloWorld.tsx" />
+    <TypeScriptCompile Include="TSX\SimpleApp.tsx" />
     <TypeScriptCompile Include="TSX\types\index.d.ts" />
-    <TypeScriptCompile Include="TS\HiWorld.ts" />
-    <TypeScriptCompile Include="TS\types\index.d.ts" />
+    <TypeScriptCompile Include="TSX\HiWorld.tsx" />
+    <TypeScriptCompile Include="TSX\TeleportAPIHelper.tsx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
