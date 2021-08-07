@@ -11,4 +11,4 @@ class HelloWorld extends React.Component {
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields
 //https://github.com/JosephWee/ReactJS-Exercise-01/blob/main/ReactWebApp/JSX/SimpleApp.jsx
-ReactDOM.render(React.createElement(HelloWorld, { name: "Joe" }), document.getElementById('root'));
+ReactDOM.render(<HelloWorld name="Joe"/>, document.getElementById('root'));
