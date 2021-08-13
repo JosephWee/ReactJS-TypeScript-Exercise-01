@@ -1,19 +1,22 @@
-﻿interface HiWorldConfig {
-    ElementId: string,
-    Name: string
-}
+﻿//For more information please see:
+//https://www.typescriptlang.org/docs/handbook/namespaces.html
+namespace Example {
+    export interface HiWorldConfig {
+        ElementId: string,
+        Name: string
+    }
 
-class HiWorld {
+    export class HiWorld {
 
-    #ElementId: string;
-    #Name: string;
+        #ElementId: string;
+        #Name: string;
 
-    constructor(config: HiWorldConfig) {
-        this.#ElementId = config.ElementId;
-        this.#Name = config.Name;
+        constructor(config: HiWorldConfig) {
+            this.#ElementId = config.ElementId;
+            this.#Name = config.Name;
 
-        $("#" + this.#ElementId).html("Hi " + this.#Name);
+            $("#" + this.#ElementId).html("Hi " + this.#Name);
+        }
     }
 }
-
-var HiWorldApp = new HiWorld({ ElementId: "root", Name: "Joe" });
+var HiWorldApp = new Example.HiWorld({ ElementId: "root", Name: "Joe" });
