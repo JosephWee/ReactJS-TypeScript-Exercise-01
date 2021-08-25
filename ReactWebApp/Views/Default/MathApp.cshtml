@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Math App";
+}
+
+<div id="root">ASP.NET MVC is working, but React might not be.</div>
+
+<!--
+For more information please read:
+https://reactjs.org/docs/typechecking-with-proptypes.html
+https://www.npmjs.com/package/prop-types
+-->
+<!-- Load our React component. -->
+<script type="module" src='@Url.Content("~/JSX/LogLib.jsx")'></script>
+<script type="module" src='@Url.Content("~/JSX/MathLib.jsx")'></script>
+<script type="module" src='@Url.Content("~/JSX/MathApp.jsx")'></script>

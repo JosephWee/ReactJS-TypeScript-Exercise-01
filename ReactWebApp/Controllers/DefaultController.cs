@@ -28,5 +28,10 @@ namespace ReactWebApp.Controllers
         {
             return View();
         }
+
+        public ActionResult MathApp()
+        {
+            return View();
+        }
     }
 }

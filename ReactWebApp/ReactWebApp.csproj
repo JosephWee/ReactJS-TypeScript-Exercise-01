@@ -165,6 +165,9 @@
     <Content Include="Global.asax" />
     <Content Include="JSX\HelloWorld.jsx" />
     <Content Include="JSX\HiWorld.jsx" />
+    <Content Include="JSX\LogLib.jsx" />
+    <Content Include="JSX\MathApp.jsx" />
+    <Content Include="JSX\MathLib.jsx" />
     <Content Include="JSX\SimpleApp.jsx" />
     <Content Include="JSX\TeleportAPIHelper.jsx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -198,6 +201,7 @@
     <Content Include="TSX\tsconfig.json" />
     <Content Include="Views\Default\HiWorld.cshtml" />
     <Content Include="Views\Default\SimpleApp.cshtml" />
+    <Content Include="Views\Default\MathApp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -213,7 +217,10 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="TSX\LogLib.tsx" />
     <TypeScriptCompile Include="TSX\HelloWorld.tsx" />
+    <TypeScriptCompile Include="TSX\MathApp.tsx" />
+    <TypeScriptCompile Include="TSX\MathLib.tsx" />
     <TypeScriptCompile Include="TSX\SimpleApp.tsx" />
     <TypeScriptCompile Include="TSX\types\index.d.ts" />
     <TypeScriptCompile Include="TSX\HiWorld.tsx" />
